@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-">
+        <li class="text">门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-">
+        <li class="text">凉亭长廊</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-">
+        <li class="text">湖边小道</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-">
+        <li class="text">进山路外围</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-1">
+        <li class="text">进山路外围1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-img_20260704_134210_00_merged">
+        <li class="text">IMG_20260704_134210_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-">
+        <li class="text">进山路口分叉</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-">
+        <li class="text">咕嘎石下面</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-img_20260704_134619_00_merged">
+        <li class="text">IMG_20260704_134619_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-img_20260704_134729_00_merged">
+        <li class="text">IMG_20260704_134729_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-img_20260704_134825_00_merged">
+        <li class="text">IMG_20260704_134825_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-img_20260704_134956_00_merged">
+        <li class="text">IMG_20260704_134956_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-img_20260704_135100_00_merged">
+        <li class="text">IMG_20260704_135100_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-img_20260704_135222_00_merged">
+        <li class="text">IMG_20260704_135222_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-">
+        <li class="text">蓝莓园门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-img_20260704_135439_00_merged">
+        <li class="text">IMG_20260704_135439_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-img_20260704_135545_00_115">
+        <li class="text">IMG_20260704_135545_00_115</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-img_20260704_135700_00_merged">
+        <li class="text">IMG_20260704_135700_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18-img_20260704_135826_00_merged">
+        <li class="text">IMG_20260704_135826_00_merged</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19-">
+        <li class="text">进山路口进村</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-">
+        <li class="text">民宿楼下</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-">
+        <li class="text">温泉旅馆</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-1">
+        <li class="text">分叉1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-2">
+        <li class="text">分叉2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-">
+        <li class="text">进山</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-">
+        <li class="text">凉亭边</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-1">
+        <li class="text">山路1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27-1">
+        <li class="text">下1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28-img_20260706_103112_00_191">
+        <li class="text">IMG_20260706_103112_00_191</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-img_20260706_103058_00_190">
+        <li class="text">IMG_20260706_103058_00_190</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-">
+        <li class="text">酒店门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-">
+        <li class="text">酒店里面</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-">
+        <li class="text">峨眉山酒店门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-2">
+        <li class="text">宗祠门口2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-img_20260705_161222_00_185">
+        <li class="text">IMG_20260705_161222_00_185</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35-">
+        <li class="text">宗祠门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-img_20260705_161118_00_183">
+        <li class="text">IMG_20260705_161118_00_183</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-img_20260705_161039_00_182">
+        <li class="text">IMG_20260705_161039_00_182</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-img_20260705_161012_00_181">
+        <li class="text">IMG_20260705_161012_00_181</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-img_20260705_160850_00_180">
+        <li class="text">IMG_20260705_160850_00_180</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40-img_20260705_160730_00_179">
+        <li class="text">IMG_20260705_160730_00_179</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41-img_20260705_160606_00_178">
+        <li class="text">IMG_20260705_160606_00_178</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-img_20260705_160518_00_177">
+        <li class="text">IMG_20260705_160518_00_177</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-img_20260705_160425_00_176">
+        <li class="text">IMG_20260705_160425_00_176</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-img_20260705_133525_00_175">
+        <li class="text">IMG_20260705_133525_00_175</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-img_20260705_094026_00_174">
+        <li class="text">IMG_20260705_094026_00_174</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-img_20260705_093906_00_173">
+        <li class="text">IMG_20260705_093906_00_173</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-img_20260705_093817_00_172">
+        <li class="text">IMG_20260705_093817_00_172</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-img_20260705_093714_00_171">
+        <li class="text">IMG_20260705_093714_00_171</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="49-img_20260705_093628_00_170">
+        <li class="text">IMG_20260705_093628_00_170</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="50-img_20260705_093534_00_169">
+        <li class="text">IMG_20260705_093534_00_169</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="51-img_20260705_093505_00_168">
+        <li class="text">IMG_20260705_093505_00_168</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="52-img_20260705_093428_00_167">
+        <li class="text">IMG_20260705_093428_00_167</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="53-img_20260704_145535_00_166">
+        <li class="text">IMG_20260704_145535_00_166</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="54-img_20260704_145448_00_165">
+        <li class="text">IMG_20260704_145448_00_165</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="55-img_20260704_145223_00_164">
+        <li class="text">IMG_20260704_145223_00_164</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="56--">
+        <li class="text">上坡 公厕所边上</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="57-">
+        <li class="text">带广场</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="58-">
+        <li class="text">村委会平台的边边</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="59-">
+        <li class="text">去村委会的下坡</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="60-">
+        <li class="text">峨嵋山庄分叉</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="61-">
+        <li class="text">峨嵋山庄门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="62-">
+        <li class="text">鹿园边上</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="63-">
+        <li class="text">陈宅门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="64-">
+        <li class="text">陈宅里面</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="65-">
+        <li class="text">咖啡馆分叉</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="66--">
+        <li class="text">咖啡馆 外面小道</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="67-">
+        <li class="text">真·咖啡馆大门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="68-img_20260704_144109_00_151">
+        <li class="text">IMG_20260704_144109_00_151</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="69-">
+        <li class="text">咖啡馆大门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="70-img_20260704_143410_00_149">
+        <li class="text">IMG_20260704_143410_00_149</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="71-img_20260704_143348_00_148">
+        <li class="text">IMG_20260704_143348_00_148</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="72-img_20260704_143305_00_147">
+        <li class="text">IMG_20260704_143305_00_147</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="73-img_20260704_143219_00_146">
+        <li class="text">IMG_20260704_143219_00_146</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="74-img_20260704_143125_00_145">
+        <li class="text">IMG_20260704_143125_00_145</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="75-img_20260704_142957_00_143">
+        <li class="text">IMG_20260704_142957_00_143</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="76-img_20260704_142856_00_142">
+        <li class="text">IMG_20260704_142856_00_142</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="77-img_20260704_142756_00_141">
+        <li class="text">IMG_20260704_142756_00_141</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="78-img_20260704_142609_00_140">
+        <li class="text">IMG_20260704_142609_00_140</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="79-img_20260704_142510_00_139">
+        <li class="text">IMG_20260704_142510_00_139</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="80-img_20260704_142432_00_138">
+        <li class="text">IMG_20260704_142432_00_138</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="81-img_20260704_142339_00_137">
+        <li class="text">IMG_20260704_142339_00_137</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="82-img_20260704_142130_00_136">
+        <li class="text">IMG_20260704_142130_00_136</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="83-">
+        <li class="text">咖啡馆</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="84-">
+        <li class="text">楼梯下的去咖啡的小道</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="85-">
+        <li class="text">温泉旅馆继续向前走</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="86-">
+        <li class="text">温泉旅馆拐弯向前走</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="87-">
+        <li class="text">温泉旅馆拐角</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="88-">
+        <li class="text">温泉旅馆门口</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="89-img_20260704_141253_00_129">
+        <li class="text">IMG_20260704_141253_00_129</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="90-">
+        <li class="text">和山路交叉的直线</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="91-img_20260704_140945_00_122">
+        <li class="text">IMG_20260704_140945_00_122</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="92-img_20260704_135545_00_115">
+        <li class="text">IMG_20260704_135545_00_115</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="93-img_20260704_135545_00_115">
+        <li class="text">IMG_20260704_135545_00_115</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
